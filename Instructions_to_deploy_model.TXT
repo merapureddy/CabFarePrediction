@@ -1,0 +1,7 @@
+After fixing the model we want to deploy that model into production  .That can be done in two ways:
+Either offline method or online method.If data that we used to build the model is confidential then we won't choose online method as data will be stored in cloud.
+In offline method, we can assign schedulers and store the code in predefined location .That scheduler would invoke r and r wil start running.
+In online method , we can use tools like ML azure or revo deployr .These tools would provide a framework or UI through which we can deploy a model.
+
+In our case ,we can simply use Rshiny library in r to develop a basic level of user interface and we can share that link of webframe work with IP
+ to client .So,client can use it as for new test cases.
